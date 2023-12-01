@@ -4,7 +4,6 @@ import { fileURLToPath } from 'node:url'
 
 async function getData () {
   const __dirname = path.dirname(fileURLToPath(import.meta.url))
-  console.log(__dirname)
   const data = await fs.readFile(path.join(__dirname, 'data.txt'), {
     encoding: 'utf-8'
   })
