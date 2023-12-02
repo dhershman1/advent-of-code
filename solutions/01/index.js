@@ -1,15 +1,4 @@
-import fs from 'node:fs/promises'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
-
-async function getData () {
-  const __dirname = path.dirname(fileURLToPath(import.meta.url))
-  const data = await fs.readFile(path.join(__dirname, 'data.txt'), {
-    encoding: 'utf-8'
-  })
-
-  return data.split('\n')
-}
+import getData from '../../utils/getData.js'
 
 const dataSet = await getData()
 
