@@ -5,7 +5,7 @@ async function getData () {
     encoding: 'utf-8'
   })
 
-  return data.split('\n')
+  return data.split('\r\n').filter(s => s)
 }
 
 export default getData
