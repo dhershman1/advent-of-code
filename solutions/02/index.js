@@ -7,7 +7,7 @@ const CONFIG = {
   blue: 14
 }
 
-function subdivideGameInfo (lines) {
+function divideGameInfo (lines) {
   let sum = 0
   let sumPowers = 0
   for (const line of lines) {
@@ -49,4 +49,4 @@ function subdivideGameInfo (lines) {
   console.log(`sum of powers for the minimums: ${sumPowers}`)
 }
 
-subdivideGameInfo(dataSet)
+divideGameInfo(dataSet)
