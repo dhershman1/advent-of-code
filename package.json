@@ -18,5 +18,7 @@
     "url": "https://github.com/dhershman1/advent-of-code/issues"
   },
   "homepage": "https://github.com/dhershman1/advent-of-code#readme",
-  "dependencies": {}
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
 }
