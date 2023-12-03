@@ -26,7 +26,6 @@ const resultOne = dataSet.reduce((acc, line, idx) => {
 
 const resultTwo = dataSet.reduce((acc, line, idx) => {
   for (const match of line.matchAll(/\d+/g)) {
-    console.log(match)
     let star = null
 
     if (line[match.index - 1] === '*') {
