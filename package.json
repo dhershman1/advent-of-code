@@ -20,5 +20,8 @@
   "homepage": "https://github.com/dhershman1/advent-of-code#readme",
   "devDependencies": {
     "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "kyanite": "^2.0.1"
   }
 }
