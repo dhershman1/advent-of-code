@@ -1,4 +1,4 @@
-import getData from '../../utils/getData.js'
+import getData from '../../../utils/getData.js'
 import { intersection, sum } from 'kyanite'
 
 const dataSet = await getData()
